@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.array = [NSMutableArray arrayWithObjects: @"something", @"something", @"mores stuff" , nil];
+    self.array = [NSMutableArray arrayWithObjects: @"Cry because I don't understand Objective-C", @"Cry some more", @"Give up and marry rich" , nil];
 
     self.checkedIndexPath = [NSMutableArray arrayWithCapacity:self.array.count];
     for (int i=0; i<self.array.count; i++) {
